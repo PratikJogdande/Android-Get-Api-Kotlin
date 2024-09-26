@@ -2,7 +2,9 @@
     <!-- Base application theme. -->
     <style name="Theme.AndroidGetApiKotlin" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
+<!--        <item name="colorPrimary">@color/purple_500</item>-->
+<!--        308d46-->
+        <item name="colorPrimary">#ff5722</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -13,5 +15,8 @@
 <!--        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
         <item name="android:statusBarColor" tools:targetApi="l">#308d46</item>
         <!-- Customize your theme here. -->
+
     </style>
+    <color name="text_color">#000000</color> <!-- Black text -->
+    <color name="background_color">#FFFFFF</color> <!-- White background -->
 </resources>
